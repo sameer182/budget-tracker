@@ -1,5 +1,10 @@
 # budget-tracker
 
+Budget-tracker application made with Vue.js
+
+### Checkout the application
+> https://sameer182.github.io/budget-tracker/
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
