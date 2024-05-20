@@ -6,6 +6,9 @@
     <TransactionList :transactions="transactions" @transactionDeleted="handleTransactionDeleted" />
     <AddTransaction @transactionSubmitted="handleTransactionSubmitted" />
   </div>
+  <footer>
+      <p>&copy; 2024 Developed by Sameer</p>
+    </footer>
 </template>
 
 <script setup>
