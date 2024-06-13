@@ -26,7 +26,7 @@ const emit = defineEmits(['transactionSubmitted']);
 const toast = useToast();
 
 const onSubmit = () => {
-  const textPattern = /^[a-zA-Z\s]+$/;
+  const textPattern = /^[a-zA-Z\s&]+$/;
   const amountPattern = /^-?\d+(\.\d{1,2})?$/;
 
   if (!text.value || !amount.value) {
